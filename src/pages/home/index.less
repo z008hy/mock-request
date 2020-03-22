@@ -7,7 +7,7 @@
     .header{
       height: 64px;
       padding: 0;
-      background-color: #fff;
+      // background-color: #fff;
       .trigger{
         color: #666;
         font-size: 18px;
@@ -16,10 +16,20 @@
     }
     .content{
       margin: 24px 16px;
-      background-color: #fff;
+      // background-color: #fff;
       min-height: auto;
+      overflow-x: auto;
       .business{
-        padding: 24px;
+        padding: 0 24px;
+        min-width: 600px;
+        height: 100%;
+        .url-form{
+          height: 60px;
+        }
+        .operate-form{
+          height: calc(100% - 60px);
+          overflow: auto;
+        }
       }
     }
   }

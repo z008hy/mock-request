@@ -1,55 +1,47 @@
-/* eslint-disable no-unused-vars */
-import React, { useState, useImperativeHandle } from 'react';
+import React, { useImperativeHandle, forwardRef } from 'react';
 import {
   Form, Input, Button, Col, Row,
 } from 'antd';
 import { DeleteOutlined } from '@ant-design/icons';
 import './index.less';
-
-interface Header {
-  key: string | undefined,
-  value: string | undefined,
-}
+import { KeyValue } from '../../../schemas/request';
 
 interface HeadersForm {
-  headers: Header[],
+  headers: KeyValue[],
 }
 
-const headersForm: React.FC = (props, ref) => {
+const HeadersForm: React.FC = (_undefied, ref) => {
   const [form] = Form.useForm();
 
   const initialValues: HeadersForm = {
     headers: [
-      {
-        key: '',
-        value: '',
-      },
+      { key: '', value: '' },
+      { key: '', value: '' },
     ],
   };
-  let { headers } = initialValues;
 
-  function onFormChange(): void {
+  function getValue() : KeyValue[] {
     const { headers: formHeaders } = form.getFieldsValue();
-    headers = formHeaders;
+    return formHeaders;
   }
 
   useImperativeHandle(ref, () => ({
-    getValues: (): Header[] => headers,
+    getValue,
   }));
   return (
     <>
-      <Form name="headersForm" form={form} initialValues={initialValues} onValuesChange={onFormChange}>
+      <Form name="headersForm" form={form} initialValues={initialValues}>
         <Form.List name="headers">
           {(fields, { add, remove }) => (
             <div>
               {fields.map((field, index) => (
                 <Row gutter={[16, 16]} key={field.key}>
-                  <Col span={6}>
+                  <Col md={8} sm={9}>
                     <Form.Item name={[index, 'key']}>
                       <Input placeholder="Key" />
                     </Form.Item>
                   </Col>
-                  <Col span={6}>
+                  <Col md={8} sm={9}>
                     <Form.Item name={[index, 'value']}>
                       <Input placeholder="Value" />
                     </Form.Item>
@@ -71,4 +63,4 @@ const headersForm: React.FC = (props, ref) => {
     </>
   );
 };
-export default React.forwardRef(headersForm);
+export default forwardRef(HeadersForm);

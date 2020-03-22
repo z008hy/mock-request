@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState, useImperativeHandle } from 'react';
 import {
   Form, Input, Button, Col, Row, Radio,
@@ -6,7 +5,6 @@ import {
 import MonacoEditor from 'react-monaco-editor';
 import { RadioChangeEvent } from 'antd/lib/radio';
 import { DeleteOutlined } from '@ant-design/icons';
-import monaco from 'monaco-editor';
 import './index.less';
 
 interface Header {
@@ -24,7 +22,7 @@ interface FormData {
   type: string,
 }
 
-const bodyForm: React.FC = (props, ref) => {
+const BodyForm: React.FC = (_undefind, ref) => {
   const monocoHeight: number = 320;
   const bodyTypes: BodyType[] = [
     { label: 'form-data', value: 'form-data' },
@@ -71,10 +69,14 @@ const bodyForm: React.FC = (props, ref) => {
                   height={monocoHeight}
                   width="80%"
                   language="json"
-                  theme="vs"
+                  theme="vs-dark"
                   options={{
                     selectOnLineNumbers: true,
                     scrollBeyondLastLine: false,
+                    automaticLayout: true,
+                    scrollbar: {
+                      horizontal: 'hidden',
+                    },
                     contextmenu: false,
                     minimap: {
                       enabled: false,
@@ -90,12 +92,12 @@ const bodyForm: React.FC = (props, ref) => {
                   <div>
                     {fields.map((field, index) => (
                       <Row gutter={[16, 0]} key={field.key}>
-                        <Col span={6}>
+                        <Col md={8} sm={9}>
                           <Form.Item name={[index, 'key']}>
                             <Input placeholder="Key" />
                           </Form.Item>
                         </Col>
-                        <Col span={6}>
+                        <Col md={8} sm={9}>
                           <Form.Item name={[index, 'value']}>
                             <Input placeholder="Value" />
                           </Form.Item>
@@ -119,4 +121,4 @@ const bodyForm: React.FC = (props, ref) => {
     </>
   );
 };
-export default React.forwardRef(bodyForm);
+export default React.forwardRef(BodyForm);

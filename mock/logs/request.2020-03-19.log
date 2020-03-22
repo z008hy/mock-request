@@ -1,0 +1,33 @@
+[2020-03-19T18:05:03.134] [INFO] default - *********************************************************************
+[2020-03-19T18:05:03.140] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "application/json, text/plain, */*",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "origin": "http://localhost:8000",
+    "p-h": "undefined",
+    "pragma": "no-cache",
+    "referer": "http://localhost:8000/request",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy/",
+}
+[2020-03-19T18:05:03.140] [INFO] default - Request Body Object {}
+[2020-03-19T18:05:03.140] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-origin": "http://localhost:8000",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-03-19T18:05:03.140] [INFO] default - Response Body undefined

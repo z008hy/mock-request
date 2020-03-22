@@ -12,3 +12,8 @@ ReactDOM.render((
     </Suspense>
   </Provider>
 ), document.getElementById('root'));
+
+// @ts-ignore
+// const electron = window.require('electron');
+
+// electron.ipcRenderer.send('test-console', 66);

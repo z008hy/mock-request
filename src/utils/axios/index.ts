@@ -1,17 +1,29 @@
-import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
-import config from './config';
-import { AxiosResponse } from 'axios';
+import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+import { proxyConfig, requestConfig } from './config';
 
-const service: AxiosInstance = axios.create(config);
+const proxyService: AxiosInstance = axios.create(proxyConfig);
 
-service.interceptors.request.use((config: AxiosRequestConfig) => {
+proxyService.interceptors.request.use((config: AxiosRequestConfig) => {
   return config;
 }, (error: any) => {
   return Promise.reject(error);
 });
 
-service.interceptors.response.use((res: AxiosResponse) => {
-  // TODO
+proxyService.interceptors.response.use((res: AxiosResponse) => {
+  return res;
+}, (error: any) => {
+  return Promise.reject(error);
+});
+
+const requestService: AxiosInstance = axios.create(requestConfig);
+
+requestService.interceptors.request.use((config: AxiosRequestConfig) => {
+  return config;
+}, (error: any) => {
+  return Promise.reject(error);
+});
+
+requestService.interceptors.response.use((res: AxiosResponse) => {
   if (res.status === 200) {
     return res.data;
   }
@@ -20,4 +32,4 @@ service.interceptors.response.use((res: AxiosResponse) => {
   return Promise.reject(error);
 });
 
-export default service;
+export { proxyService, requestService };

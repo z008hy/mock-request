@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useImperativeHandle } from 'react';
 import {
-  Form, Input, Button, Col, Row, Card,
+  Form, Input, Button, Col, Row,
 } from 'antd';
 import { DeleteOutlined } from '@ant-design/icons';
 import './index.less';
@@ -14,17 +14,14 @@ interface Parameter {
 interface ParametersForm {
   parameters: Parameter[],
 }
-const { TextArea } = Input;
-
-const parametersForm: React.FC = (props, ref) => {
+// @ts-ignore
+const ParametersForm: React.FC = (props, ref) => {
   const [form] = Form.useForm();
 
   const initialValues: ParametersForm = {
     parameters: [
-      {
-        key: '',
-        value: '',
-      },
+      { key: '', value: '' },
+      { key: '', value: '' },
     ],
   };
   const [parameters, setParameters] = useState<Parameter[]>(initialValues.parameters);
@@ -35,29 +32,25 @@ const parametersForm: React.FC = (props, ref) => {
   }
   useImperativeHandle(ref, () => ({
     getValues: (): Parameter[] => parameters,
+    getFormatValues: (): string => `?${parameters
+      .filter((item) => item && item.key)
+      .map((item) => `${item.key}=${item.value || ''}`)
+      .join('&')}`,
   }));
   return (
     <>
-      <Card title="Patamter String" bordered={false}>
-        <p>
-          {`${parameters
-            .filter((item) => item && item.key)
-            .map((item) => `${item.key}=${item.value || ''}`)
-            .join('&')}`}
-        </p>
-      </Card>
       <Form name="parametersForm" form={form} layout="vertical" initialValues={initialValues} onValuesChange={onFormChange}>
         <Form.List name="parameters">
           {(fields, { add, remove }) => (
             <div>
               {fields.map((field, index) => (
                 <Row gutter={[16, 16]} key={field.key}>
-                  <Col span={6}>
+                  <Col md={8} sm={9}>
                     <Form.Item name={[index, 'key']}>
                       <Input placeholder="Key" />
                     </Form.Item>
                   </Col>
-                  <Col span={6}>
+                  <Col md={8} sm={9}>
                     <Form.Item name={[index, 'value']}>
                       <Input placeholder="Value" />
                     </Form.Item>
@@ -79,4 +72,4 @@ const parametersForm: React.FC = (props, ref) => {
     </>
   );
 };
-export default React.forwardRef(parametersForm);
+export default React.forwardRef(ParametersForm);

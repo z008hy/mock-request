@@ -5,11 +5,16 @@ export interface RequestQuery {
   method?: string,
   URL?: string,
 }
+export interface KeyValue {
+  key: string | undefined,
+  value: string | undefined,
+}
 export interface RequestModel {
   readonly id: string,
-  method: RequestType,
-  URL: string,
+  type: RequestType,
+  url: string,
   headers: Dictionary,
   params: Dictionary,
-  body: string
+  body: string,
+  mocker?: string,
 }

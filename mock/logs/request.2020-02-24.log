@@ -1,0 +1,738 @@
+[2020-02-24T14:48:59.012] [INFO] default - *********************************************************************
+[2020-02-24T14:48:59.022] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/",
+}
+[2020-02-24T14:48:59.022] [INFO] default - Request Body Object {}
+[2020-02-24T14:48:59.022] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:48:59.022] [INFO] default - Response Body undefined
+[2020-02-24T14:48:59.140] [INFO] default - *********************************************************************
+[2020-02-24T14:48:59.142] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/",
+}
+[2020-02-24T14:48:59.142] [INFO] default - Request Body Object {}
+[2020-02-24T14:48:59.142] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:48:59.142] [INFO] default - Response Body undefined
+[2020-02-24T14:48:59.272] [INFO] default - *********************************************************************
+[2020-02-24T14:48:59.273] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "referer": "http://localhost:8080/",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/favicon.ico",
+}
+[2020-02-24T14:48:59.273] [INFO] default - Request Body Object {}
+[2020-02-24T14:48:59.273] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:48:59.273] [INFO] default - Response Body undefined
+[2020-02-24T14:49:06.559] [INFO] default - *********************************************************************
+[2020-02-24T14:49:06.559] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/",
+}
+[2020-02-24T14:49:06.559] [INFO] default - Request Body Object {}
+[2020-02-24T14:49:06.559] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:49:06.559] [INFO] default - Response Body undefined
+[2020-02-24T14:49:06.636] [INFO] default - *********************************************************************
+[2020-02-24T14:49:06.637] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/",
+}
+[2020-02-24T14:49:06.637] [INFO] default - Request Body Object {}
+[2020-02-24T14:49:06.637] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:49:06.637] [INFO] default - Response Body undefined
+[2020-02-24T14:49:10.423] [INFO] default - *********************************************************************
+[2020-02-24T14:49:10.423] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:49:10.423] [INFO] default - Request Body Object {}
+[2020-02-24T14:49:10.423] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:49:10.424] [INFO] default - Response Body undefined
+[2020-02-24T14:49:10.511] [INFO] default - *********************************************************************
+[2020-02-24T14:49:10.511] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:49:10.511] [INFO] default - Request Body Object {}
+[2020-02-24T14:49:10.511] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:49:10.511] [INFO] default - Response Body undefined
+[2020-02-24T14:49:51.081] [INFO] default - *********************************************************************
+[2020-02-24T14:49:51.081] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:49:51.081] [INFO] default - Request Body Object {}
+[2020-02-24T14:49:51.082] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:49:51.082] [INFO] default - Response Body undefined
+[2020-02-24T14:49:51.167] [INFO] default - *********************************************************************
+[2020-02-24T14:49:51.168] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:49:51.168] [INFO] default - Request Body Object {}
+[2020-02-24T14:49:51.168] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:49:51.168] [INFO] default - Response Body undefined
+[2020-02-24T14:50:25.114] [INFO] default - *********************************************************************
+[2020-02-24T14:50:25.114] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:25.114] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:25.114] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:25.115] [INFO] default - Response Body undefined
+[2020-02-24T14:50:25.194] [INFO] default - *********************************************************************
+[2020-02-24T14:50:25.194] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:25.194] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:25.194] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:25.194] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.265] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.266] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.266] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.266] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.266] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.347] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.347] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.348] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.348] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.348] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.458] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.459] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.459] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.459] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.459] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.542] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.543] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.543] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.543] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.543] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.647] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.647] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.647] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.647] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.647] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.718] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.718] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.718] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.718] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.718] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.854] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.854] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.854] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.854] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.854] [INFO] default - Response Body undefined
+[2020-02-24T14:50:26.926] [INFO] default - *********************************************************************
+[2020-02-24T14:50:26.926] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T14:50:26.926] [INFO] default - Request Body Object {}
+[2020-02-24T14:50:26.926] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T14:50:26.926] [INFO] default - Response Body undefined
+[2020-02-24T15:01:20.766] [INFO] default - *********************************************************************
+[2020-02-24T15:01:20.766] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy/",
+}
+[2020-02-24T15:01:20.766] [INFO] default - Request Body Object {}
+[2020-02-24T15:01:20.766] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:01:20.766] [INFO] default - Response Body undefined
+[2020-02-24T15:01:20.842] [INFO] default - *********************************************************************
+[2020-02-24T15:01:20.842] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy/",
+}
+[2020-02-24T15:01:20.842] [INFO] default - Request Body Object {}
+[2020-02-24T15:01:20.842] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:01:20.843] [INFO] default - Response Body undefined
+[2020-02-24T15:21:56.184] [INFO] default - *********************************************************************
+[2020-02-24T15:21:56.184] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T15:21:56.184] [INFO] default - Request Body Object {}
+[2020-02-24T15:21:56.184] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:21:56.185] [INFO] default - Response Body undefined
+[2020-02-24T15:21:56.287] [INFO] default - *********************************************************************
+[2020-02-24T15:21:56.287] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T15:21:56.287] [INFO] default - Request Body Object {}
+[2020-02-24T15:21:56.287] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:21:56.288] [INFO] default - Response Body undefined
+[2020-02-24T15:21:57.570] [INFO] default - *********************************************************************
+[2020-02-24T15:21:57.570] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T15:21:57.570] [INFO] default - Request Body Object {}
+[2020-02-24T15:21:57.570] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:21:57.570] [INFO] default - Response Body undefined
+[2020-02-24T15:21:57.655] [INFO] default - *********************************************************************
+[2020-02-24T15:21:57.655] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/proxy",
+}
+[2020-02-24T15:21:57.655] [INFO] default - Request Body Object {}
+[2020-02-24T15:21:57.655] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:21:57.655] [INFO] default - Response Body undefined
+[2020-02-24T15:22:00.078] [INFO] default - *********************************************************************
+[2020-02-24T15:22:00.078] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/",
+}
+[2020-02-24T15:22:00.078] [INFO] default - Request Body Object {}
+[2020-02-24T15:22:00.078] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:22:00.078] [INFO] default - Response Body undefined
+[2020-02-24T15:22:00.167] [INFO] default - *********************************************************************
+[2020-02-24T15:22:00.167] [INFO] default - Request Object {
+  "header": Object {
+    "accept": "text/plain",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "connection": "keep-alive",
+    "cookie": "_ga=GA1.1.1061476528.1554191491",
+    "host": "localhost:8080",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  },
+  "method": "GET",
+  "url": "/",
+}
+[2020-02-24T15:22:00.167] [INFO] default - Request Body Object {}
+[2020-02-24T15:22:00.167] [INFO] default - Response Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "vary": "Origin",
+  },
+  "message": "Not Found",
+  "status": 404,
+}
+[2020-02-24T15:22:00.167] [INFO] default - Response Body undefined

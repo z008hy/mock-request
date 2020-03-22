@@ -6,7 +6,7 @@ import { ThunkDispatch } from 'redux-thunk';
 import {
   Table, Tag, Divider, Row, Col, Button, Input, Select, Form,
 } from 'antd';
-import { LinkOutlined } from '@ant-design/icons';
+import { RocketOutlined, LinkOutlined, ApiOutlined, DeleteOutlined } from '@ant-design/icons';
 import { ColumnProps } from 'antd/lib/table';
 import './index.less';
 import { StoreState } from '../../store';
@@ -24,9 +24,11 @@ interface RequestDataSource {
 const { Option } = Select;
 
 const RequestMgmt : React.FC = () => {
+  // @ts-ignore
   function onEditRequest(id: string): void {
     debugger;
   }
+  // @ts-ignore
   function onDeleteRequest(id: string): void {
     debugger
   }
@@ -35,6 +37,12 @@ const RequestMgmt : React.FC = () => {
       title: 'URL',
       dataIndex: 'URL',
       key: 'URL',
+      render: (url, record) => (
+        <span>
+          <Tag color="green" key={record.id}><ApiOutlined /></Tag>
+          {url}
+        </span>
+      ),
     },
     {
       title: 'Method',
@@ -42,18 +50,20 @@ const RequestMgmt : React.FC = () => {
       key: 'method',
       render: (method, record) => (
         <Tag color="geekblue" key={record.id}>
-          {method}
+          {method.toLocaleUpperCase()}
         </Tag>
       ),
     },
     {
       title: 'Action',
       key: 'action',
-      render: (text, record) => (
+      width: 300,
+      render: (_undefined, record) => (
         <span>
-          <a onClick={() => onEditRequest(record.id)}>Edit</a>
+          <Button size="small" type="dashed" icon={<ApiOutlined />} onClick={() => onEditRequest(record.id)}>Request</Button>
+          <Button size="small" type="dashed" icon={<RocketOutlined />} onClick={() => onEditRequest(record.id)}>Mock</Button>
           <Divider type="vertical" />
-          <a onClick={() => onDeleteRequest(record.id)}>Delete</a>
+          <Button size="small" type="dashed" icon={<DeleteOutlined />} onClick={() => onDeleteRequest(record.id)}>Delete</Button>
         </span>
       ),
     },
@@ -97,12 +107,12 @@ const RequestMgmt : React.FC = () => {
     setDataSource(requests.map((itm, idx) => ({
       key: idx,
       id: itm.id,
-      method: itm.method,
-      URL: itm.URL,
+      method: itm.type,
+      URL: itm.url,
     })));
   }, [requests]);
   return (
-    <div>
+    <>
       <div>
         <Row gutter={[0, 8]}>
           <Col span={18}>
@@ -114,7 +124,7 @@ const RequestMgmt : React.FC = () => {
                 />
               </Form.Item>
               <Form.Item name="method">
-                <Select style={{ width: 120 }} placeholder="Method" allowClear={true}>
+                <Select style={{ width: 120 }} placeholder="Method" allowClear>
                   {Object.keys(RequestType).map((key) => (
                     <Option key={key} value={key}>{key}</Option>
                   ))}
@@ -154,7 +164,7 @@ const RequestMgmt : React.FC = () => {
           total: pagination.total,
         }}
       />
-    </div>
+    </>
   );
 };
 
