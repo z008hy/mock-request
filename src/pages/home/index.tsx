@@ -24,19 +24,19 @@ const Home: React.FC = () => {
         <div className="logo" />
         <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
           <Menu.Item key="0">
-            <Link to="request">
+            <Link to="/request">
               <ApiOutlined />
               <span>Request</span>
             </Link>
           </Menu.Item>
           <Menu.Item key="1">
-            <Link to="mock">
+            <Link to="/mock">
               <RocketOutlined />
               <span>Mock</span>
             </Link>
           </Menu.Item>
           <Menu.Item key="2">
-            <Link to="requests">
+            <Link to="/requests">
               <DatabaseOutlined />
               <span>Request MGMT</span>
             </Link>
@@ -60,6 +60,7 @@ const Home: React.FC = () => {
             <Switch>
               <Route path="/requests" component={RequestMgmt} extra />
               <Route path="/mock" component={MockOperate} extra />
+              <Route path="/mock/:id" component={MockOperate} extra />
               <Route path="/request" component={RequestOperate} extra />
             </Switch>
           </div>

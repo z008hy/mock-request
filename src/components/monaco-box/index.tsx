@@ -1,10 +1,10 @@
 import MonacoEditor, { EditorConstructionOptions } from 'react-monaco-editor';
-import React, { forwardRef, useRef, useImperativeHandle, useEffect } from 'react';
+import React, { forwardRef, useRef, useImperativeHandle } from 'react';
 
 interface Props {
   option?: EditorConstructionOptions,
   value?: string,
-  height: number | string,
+  height?: number | string,
 }
 
 const MonacoBox : React.FC<Props> = ({ option, value, height }: Props, ref) => {
@@ -14,17 +14,10 @@ const MonacoBox : React.FC<Props> = ({ option, value, height }: Props, ref) => {
     editorBox: monacoRef.current,
   }));
 
-  useEffect(() => {
-    if (monacoRef.current !== null && monacoRef.current.editor) {
-      monacoRef.current.editor.layout();
-    }
-  }, [monacoRef]);
-
   return (
     <MonacoEditor
       ref={monacoRef}
       height={height}
-      width="100%"
       language="javascript"
       theme="vs-dark"
       options={{

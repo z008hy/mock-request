@@ -1,36 +1,21 @@
-// @ts-nocheck
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import Mock from 'mockjs';
 import SplitPane from 'react-split-pane';
 import {
-  Form, Input, Select, Tabs, Button, Col, Row,
+  Form, Input, Select, Tabs, Button, Col, Row, message
 } from 'antd';
 import { SaveOutlined, RocketOutlined } from '@ant-design/icons';
-import { RequestType, Dictionary } from '../../schemas/global';
-// @ts-ignore
-// @ts-ignore
+import { RequestType } from '../../schemas/global';
 import MonacoBox from '../../components/monaco-box';
 import './index.less';
 import { json2var } from '../../utils/string';
-
-interface RequestTab {
-  name: string | React.ReactNode,
-  key: string,
-  content: React.ReactNode,
-}
-interface ResponseResult {
-  body?: string,
-  headers?: Dictionary
-}
 
 const { TabPane } = Tabs;
 const { Option } = Select;
 
 const MockOperate: React.FC = () => {
-  const mockerRef = useRef<any>(null);
   const mockRef = useRef<any>(null);
   const previewRef = useRef<any>(null);
-  const [mockResult, setMockResult] = useState<string>('');
 
   const [urlForm] = Form.useForm();
 
@@ -44,9 +29,10 @@ const MockOperate: React.FC = () => {
     const mockerResult : any = json2var(mocker);
     let body : string = '';
     if (typeof mockerResult === 'object') body = JSON.stringify(Mock.mock(mockerResult), null, '\t');
-    setMockResult(body);
+    previewRef.current.editorBox.editor.setValue(body);
   }
   async function onSave(): Promise<void> {
+    message.error('Please input a correct URL！', 2);
   }
   return (
     <>
@@ -81,25 +67,23 @@ const MockOperate: React.FC = () => {
       <div className="operate-form">
         <SplitPane split="vertical" minSize={300} allowResize onChange={() => onSplitChange()}>
           <Tabs
-            className="tabs"
+            className="monaco-tabs"
             animated={false}
             tabBarGutter={66}
           >
-            <TabPane tab="Mock" key="mock" forceRender>
-              <MonacoBox ref={mockRef} height="600" />
+            <TabPane className="monaco-pane" tab="Mock" key="mock" forceRender>
+              <MonacoBox ref={mockRef} height="100%" />
             </TabPane>
           </Tabs>
           <Tabs
-            className="tabs"
+            className="monaco-tabs"
             animated={false}
             tabBarGutter={66}
           >
-            <TabPane tab="Preview" key="preview" forceRender>
+            <TabPane className="monaco-pane" tab="Preview" key="preview" forceRender>
               <MonacoBox
                 ref={previewRef}
                 option={{ readOnly: true }}
-                value={mockResult}
-                height="600"
               />
             </TabPane>
           </Tabs>

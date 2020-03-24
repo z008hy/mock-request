@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { AnyAction } from 'redux';
 import { useSelector, useDispatch } from 'react-redux';
+import { useHistory } from 'react-router-dom';
 import { ThunkDispatch } from 'redux-thunk';
 import {
   Table, Tag, Divider, Row, Col, Button, Input, Select, Form,
@@ -24,13 +25,10 @@ interface RequestDataSource {
 const { Option } = Select;
 
 const RequestMgmt : React.FC = () => {
-  // @ts-ignore
-  function onEditRequest(id: string): void {
-    debugger;
-  }
-  // @ts-ignore
-  function onDeleteRequest(id: string): void {
-    debugger
+  const history = useHistory();
+
+  function onDeleteRequest(id: string) : void {
+    console.log(id);
   }
   const colums: ColumnProps<RequestDataSource>[] = [
     {
@@ -60,8 +58,8 @@ const RequestMgmt : React.FC = () => {
       width: 300,
       render: (_undefined, record) => (
         <span>
-          <Button size="small" type="dashed" icon={<ApiOutlined />} onClick={() => onEditRequest(record.id)}>Request</Button>
-          <Button size="small" type="dashed" icon={<RocketOutlined />} onClick={() => onEditRequest(record.id)}>Mock</Button>
+          <Button size="small" type="dashed" icon={<ApiOutlined />} onClick={() => history.push(`/request/${record.id}`)}>Request</Button>
+          <Button size="small" type="dashed" icon={<RocketOutlined />} onClick={() => history.push(`/mock/${record.id}`)}>Mock</Button>
           <Divider type="vertical" />
           <Button size="small" type="dashed" icon={<DeleteOutlined />} onClick={() => onDeleteRequest(record.id)}>Delete</Button>
         </span>
