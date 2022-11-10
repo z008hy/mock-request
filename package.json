@@ -16,7 +16,7 @@
     "antd": "^4.0.0-rc.5",
     "axios": "^0.19.2",
     "customize-cra": "^0.9.1",
-    "electron": "^8.1.1",
+    "electron": "^18.3.7",
     "mockjs": "^1.1.0",
     "monaco-editor": "^0.20.0",
     "react": "^16.12.0",
